@@ -13,6 +13,14 @@ import InterviewReport from './pages/InterviewReport'
 
 export const ServerUrl  = "https://scaffoldai.onrender.com"
 
+axios.interceptors.request.use((config) => {
+    const token = localStorage.getItem("token")
+    if (token) {
+        config.headers.Authorization = `Bearer ${token}`
+    }
+    return config
+})
+
 function App() {
 
   const dispatch = useDispatch()
