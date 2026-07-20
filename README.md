@@ -1,4 +1,4 @@
-# ScaffolfAI-Interview — Project Documentation
+# InterviewIQ.ai — Project Documentation
 
 AI-powered mock interview platform. Users pick a role, experience level, and interview mode (HR / Technical), optionally upload a resume, and go through a timed 5-question AI-generated interview. Each answer is scored live by an LLM across confidence, communication, and correctness, and a final report is generated at the end. A credit-based system (topped up via Razorpay) gates how many interviews a user can run.
 
